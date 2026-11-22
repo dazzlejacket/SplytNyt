@@ -6,6 +6,14 @@ import numpy as np
 import pytest
 import splytnyt.audio.playback as playback
 
+# The transport is driven through a fake device, but the module still needs
+# an audio backend to be importable: without PortAudio there is no
+# ``playback.sd`` to replace, and there is nothing to test.
+pytestmark = pytest.mark.skipif(
+    playback.sd is None,
+    reason="no audio backend on this machine (PortAudio is not available)",
+)
+
 class Reader:
     sample_rate=48000
     channels=2

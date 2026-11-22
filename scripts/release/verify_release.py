@@ -140,6 +140,8 @@ def main(argv: list[str]) -> int:
              str(export.get("mp3", {})))
         step("CUE sheet written", bool(export.get("continuous", {}).get("cue_written")),
              str(export.get("continuous", {})))
+        imported = report.get("imported") or {}
+        step("file import worked", bool(imported.get("frames")), str(imported))
     else:
         step("self-test report written", False)
 

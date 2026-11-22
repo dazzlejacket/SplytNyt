@@ -59,8 +59,10 @@ never writes over a source recording, even when the output folder contains it.
 ### Windows (recommended)
 
 Download the installer from the
-[Releases page](https://github.com/dazzlejacket/SplytNyt/releases), run
-`SplytNyt-0.1.0-beta-setup.exe` and follow the prompts.
+[Releases page](https://github.com/dazzlejacket/SplytNyt/releases) — for this
+beta that is
+[`SplytNyt-0.1.0-beta-setup.exe`](https://github.com/dazzlejacket/SplytNyt/releases/download/v0.1.0-beta/SplytNyt-0.1.0-beta-setup.exe)
+— run it and follow the prompts.
 
 The installer is per-user by default: no administrator rights are required, and
 it can be removed from *Settings → Apps → Installed apps*.
@@ -68,6 +70,17 @@ it can be removed from *Settings → Apps → Installed apps*.
 **You do not need Python, and you never need to open a command line.**
 
 SplytNyt is a 64-bit Windows application and needs Windows 10 or newer.
+
+A `checksums.sha256` file sits beside the installer. To check what you
+downloaded:
+
+```powershell
+Get-FileHash .\SplytNyt-0.1.0-beta-setup.exe -Algorithm SHA256
+```
+
+The installer is not code-signed, so Windows SmartScreen may warn about it the
+first time. Choose *More info → Run anyway* if you trust the download, or
+verify the checksum above first.
 
 ### Building from source
 

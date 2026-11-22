@@ -19,6 +19,49 @@ from PySide6.QtCore import Qt
 from PySide6.QtTest import QTest
 
 
+def _import_and_check(project, require):
+    """Import a file through the real import path, inside the bundle.
+
+    The exporter already reads the source PCM, so a broken decoder would be
+    caught there too. This proves the *import* path itself - the probe, the
+    fingerprint and the timeline - works in the frozen application.
+    """
+    from .app.session import Session
+    from .audio.timeline import build_reader
+
+    require(project.sources, "the project has no source file to import")
+    path = project.sources[0].path
+
+    session = Session()
+    session.new_project("import check")
+    imported = session.import_files([path])
+    require(imported, "the import returned no source")
+    require(len(session.project.sources) == 1,
+            "the import did not add exactly one source")
+    require(session.project.sources[0].path == path,
+            "the imported source points at the wrong file")
+
+    reader = build_reader(session.project)
+    original = build_reader(project)
+    try:
+        require(reader.total_frames == original.total_frames,
+                "the imported file has a different length")
+        require(reader.sample_rate == original.sample_rate,
+                "the imported file has a different sample rate")
+        require(reader.channels == original.channels,
+                "the imported file has a different channel layout")
+        frames = int(reader.total_frames)
+    finally:
+        reader.close()
+        original.close()
+
+    return {
+        "file": os.path.basename(path),
+        "frames": frames,
+        "sample_rate": int(project.sample_rate()),
+    }
+
+
 def _export_and_check(project, require):
     """Export the open project in every container and check what came out.
 
@@ -196,9 +239,11 @@ def verify(window, output, app):
         require(w.waveform.cursor_frame==w.table.track_at_row(2).start_frame and not w._playback.is_playing, 'Double-click did not seek while stopped')
         # The exporter must really work inside the bundle.
         export_summary=_export_and_check(w.session.project, require)
+        # And so must the importer.
+        import_summary=_import_and_check(w.session.project, require)
         outcome=dict(passed=True,frozen=bool(getattr(sys,'frozen',False)),executable=sys.executable,
                      project=w.session.path if hasattr(w.session,'path') else '',sample_rate=rate,checks=rows,
-                     export=export_summary,
+                     export=export_summary,imported=import_summary,
                      double_click='seek without autoplay',selection_does_not_seek=True)
         code=0
     except Exception as exc:

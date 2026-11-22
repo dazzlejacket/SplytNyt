@@ -224,6 +224,14 @@ def test_save_and_reopen_restores_cached_transcript(tmp_path):
 
 
 def test_theater_job_reuses_cache_unless_reanalyze(tmp_path, monkeypatch):
+    # The second half of this test asserts that a re-analysis bypasses the
+    # cache and actually loads the transcriber. That needs the optional
+    # faster-whisper stack to be present.
+    from splytnyt.analysis.transcribe import faster_whisper_available
+
+    if not faster_whisper_available():
+        pytest.skip("the optional faster-whisper stack is not installed")
+
     monkeypatch.setenv("SPLYTNYT_CACHE_DIR", str(tmp_path / "cache"))
     sr = 48000
     project = Project(name="job cache")
