@@ -1,0 +1,328 @@
+{
+  "schema": "splytnyt-theater-reference/1",
+  "reference_id": "moulin-rouge-the-musical",
+  "title": "Moulin Rouge! The Musical",
+  "producer": "Global Creatures",
+  "book_by": "John Logan",
+  "directed_by": "Baz Luhrmann",
+  "notes": [
+    "This is a REFERENCE LIST, not a set of instructions. It suggests possible names and a possible order.",
+    "It does not establish any timestamp and it does not prove that a number is present in your recording.",
+    "The durations are studio durations from a commercial cast recording. A live stage performance of the",
+    "same number runs considerably longer because of staging, applause and pacing. They are approximate",
+    "evidence only and must never become cutting instructions.",
+    "Confirm the production, the language and the encore/bows boundary in the app before you rely on it."
+  ],
+  "versions": [
+    {
+      "id": "broadway-programme",
+      "label": "Broadway programme order (2019-2026)",
+      "notes": "20 numbered numbers: 11 in Act 1 and 9 in Act 2 including the in-show encore."
+    },
+    {
+      "id": "west-end-programme",
+      "label": "West End programme order (2021-2026)",
+      "notes": "Same score. The West End programme names the Act 2 finale 'Come What May (Reprise)'."
+    },
+    {
+      "id": "obcr-2019",
+      "label": "Original Broadway Cast Recording (2019) track order",
+      "notes": "19 tracks: the programme order without 'Bohemian Ideas', which is in the programme but not on the album."
+    }
+  ],
+  "sources": [
+    {
+      "id": "official-music",
+      "label": "Official show site - The Music",
+      "url": "https://moulinrougemusical.com/music/",
+      "type": "official",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "official-grammy-archive",
+      "label": "Official show site - The Music (archived 'grammy' page with the 70-song score inventory)",
+      "url": "https://web.archive.org/web/20230620202240/https://moulinrougemusical.com/grammy/",
+      "type": "official",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "apple-obcr",
+      "label": "Apple Music - Original Broadway Cast Recording (track order and durations)",
+      "url": "https://music.apple.com/us/album/moulin-rouge-the-musical-original-broadway-cast-recording/1477115723",
+      "type": "commercial",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "spotify-obcr",
+      "label": "Spotify - Original Broadway Cast Recording (cross-check of order and durations)",
+      "url": "https://open.spotify.com/embed/album/1catLRW8LZfugEmfjnTWCk",
+      "type": "commercial",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "discogs-obcr",
+      "label": "Discogs - Original Broadway Cast Recording releases",
+      "url": "https://www.discogs.com/release/14310831-Various-Moulin-Rouge-The-Musical-Original-Broadway-Cast-Recording",
+      "type": "commercial",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "musicbrainz-rg",
+      "label": "MusicBrainz - Moulin Rouge! The Musical release group",
+      "url": "https://musicbrainz.org/release-group/9fd9c1c1-f4a1-4e30-a096-c479d482679c",
+      "type": "commercial",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "playbill-obcr",
+      "label": "Playbill - Original Broadway Cast Recording release announcement",
+      "url": "https://playbill.com/article/moulin-rouge-musical-releases-original-broadway-cast-recording-august-30",
+      "type": "official",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "wikipedia-numbers",
+      "label": "Wikipedia - Moulin Rouge! (musical), musical numbers tables (discovery source, corroborated by the official score inventory and the cast album)",
+      "url": "https://en.wikipedia.org/w/index.php?title=Moulin_Rouge!_(musical)&action=action=raw",
+      "type": "unofficial",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "broadway-league",
+      "label": "Broadway League - show page (running time and intermission)",
+      "url": "https://www.broadway.org/shows/details/moulin-rouge-the-musical,661",
+      "type": "official",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "ibdb",
+      "label": "IBDB - Broadway production record",
+      "url": "https://www.ibdb.com/broadway-production/moulin-rouge-the-musical-520640",
+      "type": "official",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "global-creatures",
+      "label": "Global Creatures - West End and international productions",
+      "url": "https://www.global-creatures.com/productions/moulin-rouge-the-musical/west-end/",
+      "type": "official",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "london-theatre",
+      "label": "London Theatre - West End programme number list and interval",
+      "url": "https://www.londontheatre.co.uk/theatre-news/news/everything-you-need-to-know-about-moulin-rouge-the-musical-in-london",
+      "type": "unofficial",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "ny-theatre-guide",
+      "label": "New York Theatre Guide - number list",
+      "url": "https://www.newyorktheatreguide.com/theatre-news/news/a-new-york-theatre-guide-to-moulin-rouge-the-musical",
+      "type": "unofficial",
+      "accessed": "2026-11-18"
+    },
+    {
+      "id": "au-review",
+      "label": "Australian production review - act break placement",
+      "url": "https://theblurb.com.au/wp/moulin-rouge-the-musical-global-creatures-theatre-review/",
+      "type": "unofficial",
+      "accessed": "2026-11-18"
+    }
+  ],
+  "act_break": {
+    "after_position": 11,
+    "before_position": 12,
+    "note": "Act 1 closes with 'Elephant Love Medley'. Act 2 opens with 'Backstage Romance'. One intermission sits between them. A recording labelled 'Act 2' may also carry the in-show encore, bows, curtain call, exit music or speeches.",
+    "sources": ["au-review", "london-theatre", "broadway-league", "wikipedia-numbers"]
+  },
+  "items": [
+    {
+      "position": 1,
+      "act": 1,
+      "title": "Welcome to the Moulin Rouge!",
+      "duration_hint_seconds": 460,
+      "album_track": 1,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Lady Marmalade", "Because We Can", "Minnie the Moocher", "Galop Infernal", "Amores Como El Nuestro", "Mr. Big Stuff", "So Fresh, So Clean", "Money (That's What I Want)", "Ride wit Me", "Burning Down the House", "Walk This Way", "Where It's At", "Let's Dance", "You Spin Me Round (Like a Record)"]
+    },
+    {
+      "position": 2,
+      "act": 1,
+      "title": "Bohemian Ideas",
+      "duration_hint_seconds": 0,
+      "album_track": 0,
+      "versions": ["broadway-programme", "west-end-programme"],
+      "notes": "In the Broadway and West End programmes but NOT on the original cast recording, so it has no published duration. Whether your recording contains it is one of the things to confirm by ear.",
+      "contains": ["The Sound of Music", "I Don't Want to Wait", "Every Breath You Take", "Never Gonna Give You Up"]
+    },
+    {
+      "position": 3,
+      "act": 1,
+      "title": "Truth, Beauty, Freedom, Love",
+      "duration_hint_seconds": 174,
+      "album_track": 2,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Royals", "Children of the Revolution", "We Are Young"]
+    },
+    {
+      "position": 4,
+      "act": 1,
+      "title": "The Sparkling Diamond",
+      "duration_hint_seconds": 278,
+      "album_track": 3,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Diamonds Are Forever", "Diamonds Are a Girl's Best Friend", "Material Girl", "Single Ladies (Put a Ring on It)", "Brick House", "My Lovin' (You're Never Gonna Get It)", "Jungle Boogie", "Diamonds"]
+    },
+    {
+      "position": 5,
+      "act": 1,
+      "title": "Shut Up and Raise Your Glass",
+      "duration_hint_seconds": 162,
+      "album_track": 4,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Shut Up and Dance", "Raise Your Glass", "I Wanna Dance with Somebody (Who Loves Me)"]
+    },
+    {
+      "position": 6,
+      "act": 1,
+      "title": "Firework",
+      "duration_hint_seconds": 163,
+      "album_track": 5,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": []
+    },
+    {
+      "position": 7,
+      "act": 1,
+      "title": "Your Song",
+      "duration_hint_seconds": 189,
+      "album_track": 6,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "notes": "Also quoted inside 'Elephant Love Medley' and 'Your Song (Reprise)'.",
+      "contains": []
+    },
+    {
+      "position": 8,
+      "act": 1,
+      "title": "So Exciting! (The Pitch Song)",
+      "duration_hint_seconds": 207,
+      "album_track": 7,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Complainte de la Butte", "Milord", "La Vie en rose", "Habanera (L'amour est un oiseau rebelle)", "Galop Infernal"]
+    },
+    {
+      "position": 9,
+      "act": 1,
+      "title": "Sympathy for the Duke",
+      "duration_hint_seconds": 149,
+      "album_track": 8,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Sympathy for the Devil", "You Can't Always Get What You Want", "Gimme Shelter"]
+    },
+    {
+      "position": 10,
+      "act": 1,
+      "title": "Nature Boy",
+      "duration_hint_seconds": 159,
+      "album_track": 9,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "notes": "Not a medley in the stage show. The 'Green Fairy Medley' was a construction of the 2001 film only.",
+      "contains": []
+    },
+    {
+      "position": 11,
+      "act": 1,
+      "title": "Elephant Love Medley",
+      "duration_hint_seconds": 325,
+      "album_track": 10,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "notes": "Act 1 closer. The contents differ between Broadway and the West End, and every performance moves them around. Treat the inner boundaries as a moving target.",
+      "contains": ["One More Night", "Pride (In the Name of Love)", "Play the Game", "Love Hurts", "Take On Me", "It Ain't Me Babe", "I Love You Always Forever", "Love is a Battlefield", "Don't Speak", "Everlasting Love", "What's Love Got to Do with It", "Fidelity", "Can't Help Falling in Love", "Torn", "Such Great Heights", "Up Where We Belong", "Heroes", "Your Song", "I Will Always Love You"]
+    },
+    {
+      "position": 12,
+      "act": 2,
+      "title": "Backstage Romance",
+      "duration_hint_seconds": 322,
+      "album_track": 11,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "notes": "Act 2 opener, immediately after the interval.",
+      "contains": ["Bad Romance", "Tainted Love", "Seven Nation Army", "Toxic", "Sweet Dreams (Are Made of This)"]
+    },
+    {
+      "position": 13,
+      "act": 2,
+      "title": "Come What May",
+      "duration_hint_seconds": 196,
+      "album_track": 12,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": []
+    },
+    {
+      "position": 14,
+      "act": 2,
+      "title": "Only Girl in a Material World",
+      "duration_hint_seconds": 180,
+      "album_track": 13,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Only Girl (In the World)", "Diamonds Are a Girl's Best Friend", "Material Girl"]
+    },
+    {
+      "position": 15,
+      "act": 2,
+      "title": "Chandelier",
+      "duration_hint_seconds": 186,
+      "album_track": 14,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": []
+    },
+    {
+      "position": 16,
+      "act": 2,
+      "title": "El Tango de Roxanne",
+      "duration_hint_seconds": 217,
+      "album_track": 15,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Roxanne", "Tanguera"]
+    },
+    {
+      "position": 17,
+      "act": 2,
+      "title": "Crazy Rolling",
+      "duration_hint_seconds": 313,
+      "album_track": 16,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Crazy", "Rolling in the Deep"]
+    },
+    {
+      "position": 18,
+      "act": 2,
+      "title": "Your Song (Reprise)",
+      "duration_hint_seconds": 158,
+      "album_track": 17,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "contains": ["Come What May", "Your Song", "Heroes"]
+    },
+    {
+      "position": 19,
+      "act": 2,
+      "title": "Finale (Come What May)",
+      "duration_hint_seconds": 163,
+      "album_track": 18,
+      "versions": ["broadway-programme", "obcr-2019"],
+      "notes": "The West End programme calls this number 'Come What May (Reprise)'. The same labels refer to the same music.",
+      "contains": ["Come What May", "Lady Marmalade"]
+    },
+    {
+      "position": 20,
+      "act": 2,
+      "title": "More More More! (Encore)",
+      "duration_hint_seconds": 233,
+      "album_track": 19,
+      "versions": ["broadway-programme", "west-end-programme", "obcr-2019"],
+      "notes": "The in-show encore. The company returns after 'Finale (Come What May)'. 'Don't You Want Me' is in the stage number but not on the cast album. A recording may continue past this into bows, curtain call and exit music.",
+      "contains": ["Lady Marmalade", "Hey Ya!", "Because We Can", "Minnie the Moocher", "Bad Romance", "What's Love Got to Do with It", "Don't You Want Me", "Crazy", "Galop Infernal"]
+    }
+  ]
+}

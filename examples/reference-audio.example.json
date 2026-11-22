@@ -1,0 +1,28 @@
+{
+  "_comment": [
+    "EXAMPLE manifest for the optional local reference audio feature.",
+    "",
+    "Use it with: Analyse -> Theatre -> Load local reference audio manifest...",
+    "",
+    "Every path below is a file YOU own and are allowed to use. SplytNyt only",
+    "reads local files; it never downloads a recording and never treats",
+    "tracklist data as audio.",
+    "",
+    "Paths may be absolute or relative to this manifest. Each optional query",
+    "range must be 4-30 seconds; when no ranges are given, four sparse",
+    "twelve-second fragments are chosen automatically.",
+    "",
+    "These are QUERY POSITIONS IN THE LOCAL REFERENCE - never cutting",
+    "positions in the recording you are analysing."
+  ],
+
+  "schema": "splytnyt-reference-audio/1",
+  "references": [
+    {
+      "reference_id": "my-cast-number-01",
+      "title": "Possible number title",
+      "path": "C:/Music/My Own Recordings/01.flac",
+      "query_ranges": [[10, 22], [50, 62]]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Development dependencies for SplytNyt.
+#
+#     python -m pip install -r requirements-dev.txt
+#
+# These are needed to run the test suite and to build the Windows release.
+# They are NOT needed to use the published Windows installer.
+
+-r requirements.txt
+
+# Test suite
+pytest>=8.0
+
+# Windows packaging
+pyinstaller>=6.6
+pyinstaller-hooks-contrib>=2024.10
+
+# Optional analysis stacks that the Windows build bundles when present.
+# They are not required to run SplytNyt; the application degrades gracefully
+# when they are missing.
+onnxruntime>=1.17; sys_platform == "win32"
+ctranslate2>=4.0; sys_platform == "win32"
+faster-whisper>=1.0; sys_platform == "win32"
+tokenizers>=0.15; sys_platform == "win32"
+huggingface-hub>=0.20; sys_platform == "win32"
+
+# Optional: read tags already embedded in your source files.
+# Mutagen is GPL-2.0-or-later, so it is deliberately NOT bundled in the
+# Windows release. Install it yourself only if you run from source and want
+# the extra tag-reading behaviour.
+# mutagen>=1.47

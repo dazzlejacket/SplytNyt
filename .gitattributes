@@ -1,0 +1,23 @@
+# Normalise text files to LF in the repository and CRLF on checkout on Windows.
+* text=auto eol=lf
+
+*.py   text diff=python
+*.md   text
+*.txt  text
+*.json text
+*.yml  text
+*.yaml text
+*.toml text
+*.spec text
+*.iss  text
+
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.ico  binary
+*.exe  binary
+*.dll  binary
+*.pyd  binary
+
+# Keep the vendored license texts exactly as published.
+licenses/** -text

@@ -1,0 +1,191 @@
+{
+  "title": "Kid A",
+  "secondary-type-ids": [],
+  "id": "e75c0549-ad55-39e3-8025-c72c5d4a3c5d",
+  "secondary-types": [],
+  "disambiguation": "",
+  "releases": [
+    {
+      "date": "2000-08-03",
+      "packaging-id": null,
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "release-events": [
+        {
+          "area": {
+            "sort-name": "Europe",
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type": null,
+            "name": "Europe",
+            "disambiguation": "",
+            "type-id": null
+          },
+          "date": "2000-08-03"
+        }
+      ],
+      "barcode": "724352775316",
+      "quality": "normal",
+      "title": "Kid A",
+      "country": "XE",
+      "media": [
+        {
+          "id": "26e4bd25-4608-3acb-97d8-86b947850dae",
+          "format-id": "3155d2b6-52fd-3952-bda3-bd7c429d038d",
+          "title": "",
+          "format": "10\" Vinyl",
+          "position": 1,
+          "track-count": 5
+        },
+        {
+          "track-count": 6,
+          "position": 2,
+          "format": "10\" Vinyl",
+          "title": "",
+          "id": "779c502c-5f78-332b-9cef-4ba8ce944b47",
+          "format-id": "3155d2b6-52fd-3952-bda3-bd7c429d038d"
+        }
+      ],
+      "text-representation": {
+        "script": "Latn",
+        "language": "eng"
+      },
+      "packaging": null,
+      "id": "677cf459-923a-49ca-b144-90083728d2dc",
+      "status": "Official"
+    },
+    {
+      "status": "Official",
+      "id": "e1bdf797-8b89-4d4c-8986-bcb0974d9726",
+      "packaging": "Jewel Case",
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "media": [
+        {
+          "track-count": 10,
+          "position": 1,
+          "format": "CD",
+          "title": "",
+          "id": "3f3833b6-26b4-32b7-b3ed-2c7b9c51b156",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "country": "JP",
+      "quality": "normal",
+      "title": "Kid A",
+      "release-events": [
+        {
+          "date": "2000-09-27",
+          "area": {
+            "type": null,
+            "id": "2db42837-c832-3c27-b4a3-08198f75693c",
+            "iso-3166-1-codes": [
+              "JP"
+            ],
+            "sort-name": "Japan",
+            "type-id": null,
+            "disambiguation": "",
+            "name": "Japan"
+          }
+        }
+      ],
+      "barcode": "4988006786011",
+      "disambiguation": "",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "date": "2000-09-27"
+    },
+    {
+      "date": "2000-09-29",
+      "packaging-id": "ec27701a-4a22-37f4-bfac-6616e0f9750a",
+      "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+      "disambiguation": "",
+      "media": [
+        {
+          "track-count": 10,
+          "position": 1,
+          "format": "CD",
+          "title": "",
+          "id": "f7a1d823-fde2-3411-8677-13a4a8cfaf5a",
+          "format-id": "9712d52a-4509-3d4b-a1a2-67c88c643e31"
+        }
+      ],
+      "text-representation": {
+        "language": "eng",
+        "script": "Latn"
+      },
+      "release-events": [
+        {
+          "area": {
+            "type": null,
+            "iso-3166-1-codes": [
+              "XE"
+            ],
+            "sort-name": "Europe",
+            "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+            "type-id": null,
+            "name": "Europe",
+            "disambiguation": ""
+          },
+          "date": "2000-09-29"
+        },
+        {
+          "area": {
+            "name": "France",
+            "disambiguation": "",
+            "type-id": null,
+            "iso-3166-1-codes": [
+              "FR"
+            ],
+            "sort-name": "France",
+            "id": "08310658-51eb-3801-80de-5a0739207115",
+            "type": null
+          },
+          "date": "2000-09-29"
+        },
+        {
+          "date": "2000-09-29",
+          "area": {
+            "type-id": null,
+            "disambiguation": "",
+            "name": "Germany",
+            "type": null,
+            "id": "85752fda-13c4-31a3-bee5-0e5cb1f51dad",
+            "sort-name": "Germany",
+            "iso-3166-1-codes": [
+              "DE"
+            ]
+          }
+        },
+        {
+          "date": "2000-10-02",
+          "area": {
+            "disambiguation": "",
+            "name": "United Kingdom",
+            "type-id": null,
+            "id": "8a754a16-0027-3a29-b6d7-2b40ea0481ed",
+            "iso-3166-1-codes": [
+              "GB"
+            ],
+            "sort-name": "United Kingdom",
+            "type": null
+          }
+        }
+      ],
+      "barcode": "724352775323",
+      "quality": "normal",
+      "country": "XE",
+      "title": "Kid A",
+      "id": "f947caf6-2da7-3a57-aa4b-0d5e374226ce",
+      "status": "Official",
+      "packaging": "Jewel Case"
+    }
+  ],
+  "primary-type-id": "f529b476-6e62-324f-b0aa-1f3e33d313fc",
+  "first-release-date": "2000-08-03",
+  "primary-type": "Album"
+}

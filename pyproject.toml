@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "splytnyt"
+version = "0.1.0b1"
+description = "Local-first splitting and tagging of long audio recordings"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+keywords = ["audio", "splitting", "tagging", "flac", "mp3", "cue", "concert"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: X11 Applications :: Qt",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS :: MacOS X",
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: Editors",
+]
+dependencies = [
+    "PySide6>=6.7",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "soundfile>=0.12",
+    "lameenc>=1.7",
+    "sounddevice>=0.4.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+build = ["pyinstaller>=6.6", "pyinstaller-hooks-contrib>=2024.10"]
+
+[project.scripts]
+splytnyt = "splytnyt.main:main"
+
+[project.urls]
+Homepage = "https://github.com/dazzlejacket/SplytNyt"
+Repository = "https://github.com/dazzlejacket/SplytNyt"
+Issues = "https://github.com/dazzlejacket/SplytNyt/issues"
+Changelog = "https://github.com/dazzlejacket/SplytNyt/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["splytnyt*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]

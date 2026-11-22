@@ -1,0 +1,575 @@
+{
+  "text-representation": {
+    "script": "Latn",
+    "language": "eng"
+  },
+  "quality": "normal",
+  "artist-credit": [
+    {
+      "joinphrase": "",
+      "name": "Radiohead",
+      "artist": {
+        "disambiguation": "",
+        "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+        "name": "Radiohead",
+        "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+        "sort-name": "Radiohead",
+        "type": "Group",
+        "country": "GB"
+      }
+    }
+  ],
+  "status": "Official",
+  "packaging-id": null,
+  "asin": null,
+  "date": "2000-08-03",
+  "title": "Kid A",
+  "id": "677cf459-923a-49ca-b144-90083728d2dc",
+  "release-events": [
+    {
+      "date": "2000-08-03",
+      "area": {
+        "type-id": null,
+        "sort-name": "Europe",
+        "name": "Europe",
+        "id": "89a675c2-3e37-3518-b83c-418bad59a85a",
+        "iso-3166-1-codes": [
+          "XE"
+        ],
+        "type": null,
+        "disambiguation": ""
+      }
+    }
+  ],
+  "packaging": null,
+  "disambiguation": "",
+  "barcode": "724352775316",
+  "cover-art-archive": {
+    "front": true,
+    "artwork": true,
+    "count": 6,
+    "darkened": false,
+    "back": true
+  },
+  "status-id": "4e304316-386d-3409-af2e-78857eec5cfe",
+  "country": "XE",
+  "media": [
+    {
+      "track-offset": 0,
+      "format-id": "3155d2b6-52fd-3952-bda3-bd7c429d038d",
+      "position": 1,
+      "format": "10\" Vinyl",
+      "title": "",
+      "track-count": 5,
+      "tracks": [
+        {
+          "artist-credit": [
+            {
+              "joinphrase": "",
+              "artist": {
+                "disambiguation": "",
+                "country": "GB",
+                "type": "Group",
+                "name": "Radiohead",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "sort-name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b"
+              },
+              "name": "Radiohead"
+            }
+          ],
+          "title": "Everything in Its Right Place",
+          "length": 251426,
+          "id": "9e4cd4c9-0c32-4d99-8759-7882d0950122",
+          "recording": {
+            "first-release-date": "2000-08-03",
+            "id": "60bd9d53-01ff-4562-8058-eb44b3940317",
+            "length": 251426,
+            "title": "Everything in Its Right Place",
+            "video": false,
+            "artist-credit": [
+              {
+                "name": "Radiohead",
+                "artist": {
+                  "disambiguation": "",
+                  "type": "Group",
+                  "name": "Radiohead",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "sort-name": "Radiohead",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "country": "GB"
+                },
+                "joinphrase": ""
+              }
+            ],
+            "disambiguation": ""
+          },
+          "number": "A1",
+          "position": 1
+        },
+        {
+          "recording": {
+            "artist-credit": [
+              {
+                "joinphrase": "",
+                "artist": {
+                  "type": "Group",
+                  "sort-name": "Radiohead",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "name": "Radiohead",
+                  "country": "GB",
+                  "disambiguation": ""
+                },
+                "name": "Radiohead"
+              }
+            ],
+            "disambiguation": "",
+            "first-release-date": "2000-08-03",
+            "id": "0852f01a-1832-453d-ae8e-345499ecc027",
+            "video": false,
+            "length": 284506,
+            "title": "Kid A"
+          },
+          "number": "A2",
+          "position": 2,
+          "artist-credit": [
+            {
+              "joinphrase": "",
+              "name": "Radiohead",
+              "artist": {
+                "disambiguation": "",
+                "country": "GB",
+                "type": "Group",
+                "sort-name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "name": "Radiohead",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711"
+              }
+            }
+          ],
+          "length": 284000,
+          "title": "Kid A",
+          "id": "61910013-d1ba-49b8-b772-eadc3ca85fb6"
+        },
+        {
+          "title": "The National Anthem",
+          "length": 351693,
+          "artist-credit": [
+            {
+              "joinphrase": "",
+              "name": "Radiohead",
+              "artist": {
+                "type": "Group",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Radiohead",
+                "country": "GB",
+                "disambiguation": ""
+              }
+            }
+          ],
+          "id": "ce64f76e-14bc-4587-b000-186fcc0f87a1",
+          "number": "B1",
+          "recording": {
+            "disambiguation": "",
+            "artist-credit": [
+              {
+                "joinphrase": "",
+                "artist": {
+                  "type": "Group",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "sort-name": "Radiohead",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "name": "Radiohead",
+                  "country": "GB",
+                  "disambiguation": ""
+                },
+                "name": "Radiohead"
+              }
+            ],
+            "video": false,
+            "length": 351693,
+            "title": "The National Anthem",
+            "first-release-date": "2000-08-03",
+            "id": "c7492f6e-adf3-4ff5-85dc-33d527dc81d8"
+          },
+          "position": 3
+        },
+        {
+          "id": "22395a07-ab3f-4900-8081-c8468345412d",
+          "artist-credit": [
+            {
+              "joinphrase": "",
+              "artist": {
+                "type": "Group",
+                "sort-name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "name": "Radiohead",
+                "country": "GB",
+                "disambiguation": ""
+              },
+              "name": "Radiohead"
+            }
+          ],
+          "title": "How to Disappear Completely",
+          "length": 356333,
+          "position": 4,
+          "recording": {
+            "video": false,
+            "title": "How to Disappear Completely",
+            "length": 356333,
+            "first-release-date": "2000-08-03",
+            "id": "740d324e-4356-4116-812d-17ea76a190ce",
+            "artist-credit": [
+              {
+                "name": "Radiohead",
+                "artist": {
+                  "type": "Group",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "name": "Radiohead",
+                  "sort-name": "Radiohead",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "country": "GB",
+                  "disambiguation": ""
+                },
+                "joinphrase": ""
+              }
+            ],
+            "disambiguation": ""
+          },
+          "number": "B2"
+        },
+        {
+          "position": 5,
+          "recording": {
+            "disambiguation": "",
+            "artist-credit": [
+              {
+                "joinphrase": "",
+                "name": "Radiohead",
+                "artist": {
+                  "country": "GB",
+                  "type": "Group",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "sort-name": "Radiohead",
+                  "name": "Radiohead",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "disambiguation": ""
+                }
+              }
+            ],
+            "title": "Treefingers",
+            "length": 222600,
+            "video": false,
+            "id": "31c89fdc-afdb-4d84-bc61-2dbabf0b4f23",
+            "first-release-date": "2000-08-03"
+          },
+          "number": "B3",
+          "id": "4c69e5dd-2ffb-48c9-80fe-1777721da43a",
+          "artist-credit": [
+            {
+              "joinphrase": "",
+              "name": "Radiohead",
+              "artist": {
+                "type": "Group",
+                "sort-name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "name": "Radiohead",
+                "country": "GB",
+                "disambiguation": ""
+              }
+            }
+          ],
+          "title": "Treefingers",
+          "length": 222600
+        }
+      ],
+      "id": "26e4bd25-4608-3acb-97d8-86b947850dae"
+    },
+    {
+      "track-count": 6,
+      "title": "",
+      "tracks": [
+        {
+          "position": 1,
+          "number": "C1",
+          "recording": {
+            "first-release-date": "2000-08-03",
+            "id": "4d7b8fcb-fafc-4416-9170-752f12e10a2e",
+            "title": "Optimistic",
+            "length": 315973,
+            "video": false,
+            "disambiguation": "",
+            "artist-credit": [
+              {
+                "joinphrase": "",
+                "artist": {
+                  "disambiguation": "",
+                  "country": "GB",
+                  "type": "Group",
+                  "name": "Radiohead",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "sort-name": "Radiohead"
+                },
+                "name": "Radiohead"
+              }
+            ]
+          },
+          "id": "9ccff3a9-4b3d-414c-a5cb-a99b5a34e07e",
+          "length": 315973,
+          "title": "Optimistic",
+          "artist-credit": [
+            {
+              "name": "Radiohead",
+              "artist": {
+                "name": "Radiohead",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Radiohead",
+                "type": "Group",
+                "country": "GB",
+                "disambiguation": ""
+              },
+              "joinphrase": ""
+            }
+          ]
+        },
+        {
+          "id": "b9b6b125-109c-4ea9-bea1-05abb390178e",
+          "artist-credit": [
+            {
+              "name": "Radiohead",
+              "artist": {
+                "disambiguation": "",
+                "country": "GB",
+                "type": "Group",
+                "sort-name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "name": "Radiohead"
+              },
+              "joinphrase": ""
+            }
+          ],
+          "title": "In Limbo",
+          "length": 211000,
+          "position": 2,
+          "recording": {
+            "id": "27f5b46c-f749-40e7-bc10-1524393168f0",
+            "first-release-date": "2000-08-03",
+            "title": "In Limbo",
+            "length": 211000,
+            "video": false,
+            "artist-credit": [
+              {
+                "joinphrase": "",
+                "name": "Radiohead",
+                "artist": {
+                  "disambiguation": "",
+                  "sort-name": "Radiohead",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "name": "Radiohead",
+                  "type": "Group",
+                  "country": "GB"
+                }
+              }
+            ],
+            "disambiguation": ""
+          },
+          "number": "C2"
+        },
+        {
+          "id": "f0208b33-5260-4322-b20c-c3a959deeefa",
+          "artist-credit": [
+            {
+              "artist": {
+                "disambiguation": "",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Radiohead",
+                "type": "Group",
+                "country": "GB"
+              },
+              "name": "Radiohead",
+              "joinphrase": ""
+            }
+          ],
+          "title": "Idioteque",
+          "length": 309093,
+          "position": 3,
+          "recording": {
+            "first-release-date": "2000-08-03",
+            "id": "1c0377bb-c00b-4bbe-b4b2-615f13324adc",
+            "title": "Idioteque",
+            "length": 309093,
+            "video": false,
+            "artist-credit": [
+              {
+                "name": "Radiohead",
+                "artist": {
+                  "country": "GB",
+                  "type": "Group",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "sort-name": "Radiohead",
+                  "name": "Radiohead",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "disambiguation": ""
+                },
+                "joinphrase": ""
+              }
+            ],
+            "disambiguation": ""
+          },
+          "number": "D1"
+        },
+        {
+          "artist-credit": [
+            {
+              "joinphrase": "",
+              "name": "Radiohead",
+              "artist": {
+                "disambiguation": "",
+                "type": "Group",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Radiohead",
+                "name": "Radiohead",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "country": "GB"
+              }
+            }
+          ],
+          "length": 275800,
+          "title": "Morning Bell",
+          "id": "0627fdc7-2ba2-41d1-be26-39c6ce5033d9",
+          "recording": {
+            "artist-credit": [
+              {
+                "name": "Radiohead",
+                "artist": {
+                  "disambiguation": "",
+                  "sort-name": "Radiohead",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "name": "Radiohead",
+                  "type": "Group",
+                  "country": "GB"
+                },
+                "joinphrase": ""
+              }
+            ],
+            "disambiguation": "",
+            "video": false,
+            "length": 275800,
+            "title": "Morning Bell",
+            "first-release-date": "2000-08-03",
+            "id": "5616efb3-4c50-40ab-a792-e2e34faae75f"
+          },
+          "number": "D2",
+          "position": 4
+        },
+        {
+          "id": "58911cb5-2bab-4526-b525-ac9dc74f703e",
+          "artist-credit": [
+            {
+              "joinphrase": "",
+              "artist": {
+                "disambiguation": "",
+                "type": "Group",
+                "name": "Radiohead",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "sort-name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "country": "GB"
+              },
+              "name": "Radiohead"
+            }
+          ],
+          "length": 419466,
+          "title": "Motion Picture Soundtrack",
+          "position": 5,
+          "recording": {
+            "first-release-date": "2000-08-03",
+            "id": "f8764ab0-996b-40c8-9645-10f47e8c43d0",
+            "video": false,
+            "title": "Motion Picture Soundtrack / [untitled]",
+            "length": 419466,
+            "disambiguation": "",
+            "artist-credit": [
+              {
+                "name": "Radiohead",
+                "artist": {
+                  "country": "GB",
+                  "type": "Group",
+                  "sort-name": "Radiohead",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "name": "Radiohead",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "disambiguation": ""
+                },
+                "joinphrase": ""
+              }
+            ]
+          },
+          "number": "D3"
+        },
+        {
+          "id": "cfb917a5-11ce-47ba-88d8-ef1a34009c9f",
+          "artist-credit": [
+            {
+              "joinphrase": "",
+              "artist": {
+                "disambiguation": "",
+                "country": "GB",
+                "type": "Group",
+                "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                "name": "Radiohead",
+                "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                "sort-name": "Radiohead"
+              },
+              "name": "Radiohead"
+            }
+          ],
+          "title": "[unknown]",
+          "length": 52000,
+          "position": 6,
+          "recording": {
+            "first-release-date": "2000-08-03",
+            "id": "05248c45-a89f-4dbb-988f-37eba5d1b3a4",
+            "video": false,
+            "title": "[unknown]",
+            "length": 52000,
+            "artist-credit": [
+              {
+                "joinphrase": "",
+                "name": "Radiohead",
+                "artist": {
+                  "country": "GB",
+                  "type": "Group",
+                  "name": "Radiohead",
+                  "id": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
+                  "sort-name": "Radiohead",
+                  "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                  "disambiguation": ""
+                }
+              }
+            ],
+            "disambiguation": ""
+          },
+          "number": "D4"
+        }
+      ],
+      "id": "779c502c-5f78-332b-9cef-4ba8ce944b47",
+      "track-offset": 0,
+      "position": 2,
+      "format": "10\" Vinyl",
+      "format-id": "3155d2b6-52fd-3952-bda3-bd7c429d038d"
+    }
+  ]
+}

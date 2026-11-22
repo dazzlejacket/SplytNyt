@@ -1,0 +1,89 @@
+# Python / virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller / build output (anchored to the repository root, so that
+# scripts/release/ keeps working)
+/dist/
+/dist-selfcheck/
+/.build_work/
+/.build_recovery/
+*.manifest
+*.spec.bak
+
+# Test & tooling caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local application data, projects and user exports
+*.splytnyt
+/splytnyt_settings.json
+/settings.json
+!examples/settings.example.json
+/export/
+/exports/
+
+# Local recordings and audio never belong in this repository
+*.mp3
+*.flac
+*.wav
+*.aiff
+*.aif
+*.m4a
+*.ogg
+*.opus
+*.ape
+*.wma
+*.cue
+*.m3u
+*.npz
+!tests/fixtures/**
+!docs/**
+
+# Generated screenshots / demo material
+/scripts/demo/
+/docs/_generated/
+
+# Release artefacts (the build writes them here)
+/release/
+/*.exe
+/*.msi
+/*.zip
+/checksums.sha256

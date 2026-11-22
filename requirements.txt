@@ -1,0 +1,15 @@
+# Core dependencies for SplytNyt.
+# Install with:  python -m pip install -r requirements.txt
+#
+# Everything here ships a wheel for Windows, macOS and Linux.
+# CPU only - no GPU, no proprietary service, no API key.
+
+PySide6>=6.7          # Qt 6 bindings (LGPL v3)
+numpy>=1.26           # vectorised DSP (BSD 3-Clause)
+scipy>=1.11           # resampling and filtering (BSD 3-Clause)
+soundfile>=0.12       # libsndfile bindings: decode FLAC/WAV/AIFF/OGG/MP3 (BSD 2-Clause)
+lameenc>=1.7          # LAME bindings: MP3 encoding (LGPL v2.1)
+sounddevice>=0.4.6    # PortAudio bindings: playback (BSD 2-Clause)
+
+# Development only
+pytest>=8.0

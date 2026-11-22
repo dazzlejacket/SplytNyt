@@ -1,0 +1,20 @@
+{
+  "_comment": [
+    "EXAMPLE configuration for SplytNyt - contains no credentials.",
+    "",
+    "SplytNyt keeps its settings in this file. The real one lives at:",
+    "    Windows: %USERPROFILE%\\.splytnyt\\settings.json",
+    "    macOS/Linux: ~/.splytnyt/settings.json",
+    "",
+    "Copy this file to that location and edit it, or let SplytNyt write it for",
+    "you by changing the settings in the interface.",
+    "",
+    "API KEYS ARE NOT STORED HERE ON PURPOSE.",
+    "Your setlist.fm key and any AcoustID override go into the Windows",
+    "Credential Manager, never into this file. You can also set them through",
+    "the environment variables SETLISTFM_API_KEY and ACOUSTID_API_KEY.",
+    "Never put a key in this file, and never commit one."
+  ],
+
+  "shazamio_enabled": false
+}

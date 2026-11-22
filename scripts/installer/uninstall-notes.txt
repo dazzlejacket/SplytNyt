@@ -1,0 +1,25 @@
+SplytNyt - uninstall notes
+==========================
+
+SplytNyt has been removed from this computer.
+
+Your own data has been left in place:
+
+    %USERPROFILE%\.splytnyt
+
+That folder holds:
+
+  settings.json          your settings
+  projects / exports     anything SplytNyt saved for you
+  models/                the optional YAMNet and Whisper models, if you
+                         downloaded them (about 500 MB in total)
+  optional_engines/      the optional ShazamIO (Experimental) engine, if you
+                         installed it
+  cache/                 cached online metadata lookups
+
+Nothing in that folder is needed to run SplytNyt again, and nothing in it is
+sent anywhere. The uninstaller offers to delete it for you if you want it gone;
+if you chose to keep it, you can delete the folder yourself at any time.
+
+Your own audio recordings were never touched. SplytNyt never writes over a
+source recording, and it never uploads one.

@@ -1,0 +1,55 @@
+{
+  "id": "8bfcc3f9-9d2f-4f0e-9a3d-1a2b3c4d5e6f",
+  "artistName": "The Example Ensemble",
+  "venueName": "The Old Hall",
+  "venueCity": "Reykjavik",
+  "venueCountry": "Iceland",
+  "eventDate": "13-06-2005",
+  "setlistName": "",
+  "sets": [
+    {
+      "name": "",
+      "songs": [
+        {
+          "name": "Opening Piece",
+          "encore": "",
+          "isCover": false,
+          "note": ""
+        },
+        {
+          "name": "Second Piece",
+          "encore": "",
+          "isCover": false,
+          "note": ""
+        },
+        {
+          "name": "Third Piece",
+          "encore": "",
+          "isCover": true,
+          "note": "a cover"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "encore": "1",
+      "songs": [
+        {
+          "name": "Encore Piece",
+          "encore": "1",
+          "isCover": false,
+          "note": ""
+        },
+        {
+          "name": "Medley: First Part / Second Part",
+          "encore": "2",
+          "isCover": false,
+          "note": "medley"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "source": "fixture"
+  }
+}

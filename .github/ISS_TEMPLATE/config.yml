@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: AcoustID application key
+    url: https://acoustid.org/api
+    about: Register your own AcoustID key if you would rather not use the one built into SplytNyt.
+  - name: setlist.fm API key
+    url: https://www.setlist.fm/api
+    about: Every user needs their own free setlist.fm key. No key is shipped with SplytNyt.
+  - name: Third-party notices
+    url: https://github.com/dazzlejacket/SplytNyt/blob/main/THIRD_PARTY_NOTICES.md
+    about: Licences of every bundled component, and what SplytNyt sends to each online service.

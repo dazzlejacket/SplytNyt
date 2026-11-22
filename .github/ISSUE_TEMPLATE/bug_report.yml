@@ -1,0 +1,75 @@
+name: Bug report
+description: Something in SplytNyt does not behave the way it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this.
+
+        **Please do not attach copyrighted recordings.** A `.splytnyt` project
+        file contains no audio and is small — attach that instead. Never upload
+        concert recordings, vinyl rips or anything else you do not own.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you see, and what did you expect to see instead?
+      placeholder: The suggested cut for track 4 landed about two seconds before the song starts.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How do I get there from a fresh start?
+      placeholder: |
+        1. Import concert.mp3
+        2. Analyse → Suggest boundaries (balanced)
+        3. Look at track 4
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical
+    attributes:
+      label: Technical details
+      description: |
+        Open the review panel and expand **Technical details** for the cut in
+        question, and paste what it says here. It is the single most useful
+        thing you can include.
+      render: text
+
+  - type: input
+    id: version
+    attributes:
+      label: SplytNyt version
+      placeholder: 0.1.0-beta
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 23H2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: how
+    attributes:
+      label: How are you running SplytNyt?
+      options:
+        - Windows installer
+        - From source
+    validations:
+      required: true
+
+  - type: textarea
+    id: extras
+    attributes:
+      label: Anything else?
+      description: Logs, screenshots, the `.splytnyt` project file.
