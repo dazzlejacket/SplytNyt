@@ -7,6 +7,28 @@ import os
 import sys
 
 
+def _emit_version(text: str) -> None:
+    """Print the version where somebody can read it.
+
+    A windowed (no-console) build has no stdout, and printing to a closed
+    stream would raise instead of answering. There the text goes to the Windows
+    debug output, which is where a no-console application can still be seen.
+    """
+    stream = sys.stdout
+    if stream is not None:
+        try:
+            print(text)
+            return
+        except Exception:
+            pass
+    try:
+        import ctypes
+
+        ctypes.windll.kernel32.OutputDebugStringW(text)
+    except Exception:
+        pass
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="splytnyt",
@@ -23,7 +45,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.version:
         from . import APP_NAME, __version__
 
-        print(f"{APP_NAME} {__version__}")
+        _emit_version(f"{APP_NAME} {__version__}")
         return 0
 
     # Qt must be imported after the argument parsing so --version works on a

@@ -33,14 +33,16 @@ SolidCompression=yes
 WizardStyle=modern
 ; Per-user install: no elevation, no admin rights, no machine-wide changes.
 PrivilegesRequired=lowest
-PrivilegesRequiredOverridesAllowed=dialog
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 DisableProgramGroupPage=yes
-UninstallDisplaySizeMB=300
 SetupLogging=yes
 VersionInfoVersion=0.1.0.0
-VersionInfoDescription={#AppName} installer
+VersionInfoProductName={#AppName}
+VersionInfoProductVersion=0.1.0.0
+VersionInfoCompany={#AppPublisher}
+VersionInfoDescription={#AppName} {#AppVersion} installer
+VersionInfoCopyright=Copyright (c) 2026 {#AppPublisher}. MIT licence.
 CloseApplications=yes
 RestartApplications=no
 
@@ -74,8 +76,8 @@ Filename: "{app}\{#AppExeName}"; Description: "{cm:LaunchProgram,{#AppName}}"; F
 function InitializeSetup(): Boolean;
 begin
   Result := True;
-  { Refuse to install on anything that is not 64-bit Windows. }
-  if not IsWin64 and not IsWin64CPU then
+  { Refuse to install on anything that is not a 64-bit Windows. }
+  if not IsWin64 then
   begin
     MsgBox('SplytNyt needs a 64-bit version of Windows 10 or newer.', mbCriticalError, MB_OK);
     Result := False;
