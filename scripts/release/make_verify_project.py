@@ -37,10 +37,12 @@ def main(argv: list[str]) -> int:
     out_dir = os.path.abspath(argv[1] if len(argv) > 1 else ".")
     os.makedirs(out_dir, exist_ok=True)
 
-    # Five songs with ordinary gaps between them.
+    # Five songs with ordinary gaps between them. The recording has to be
+    # longer than 60 seconds: the packaged self-test plays from the 60 second
+    # mark as well as from the start of a track.
     notes = [196.00, 246.94, 293.66, 329.63, 392.00]
     gap_seconds = 1.5
-    song_seconds = 4.0
+    song_seconds = 15.0
 
     pieces = []
     boundaries = []

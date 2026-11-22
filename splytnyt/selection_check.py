@@ -26,9 +26,9 @@ def _export_and_check(project, require):
     """
     import numpy as np
     import soundfile as sf
-    from ..app.exporting import export_project
-    from ..audio.timeline import build_reader
-    from ..core.model import ExportSettings
+    from .app.exporting import export_project
+    from .audio.timeline import build_reader
+    from .core.model import ExportSettings
 
     reader = build_reader(project)
     summary = {}

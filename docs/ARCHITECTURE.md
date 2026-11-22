@@ -276,7 +276,7 @@ requires a proper `User-Agent` with contact info and rate limiting to 1 req/s
 
 ---
 
-## 8. Export (`app/export.py`, `audio/encode/`)
+## 8. Export (`app/exporting.py`, `audio/encode/`)
 
 - **Two shapes.** (a) *Separate tracks*: one file per track. (b) *Continuous
   + CUE*: the program audio as one file plus a CUE sheet referencing it.
@@ -436,9 +436,8 @@ Delivered and verified in this repository:
 
 ### Phase 2 — Boundary placement
 
-Also implemented in this build, and the reason the numbers in
-`PHASE2_VALIDATION.md` can be measured against song starts rather than
-against gap centres:
+Also implemented in this build, and the reason a proposed cut can be measured
+against song starts rather than against gap centres:
 
 - The detection of a **transition region** and the **placement of the cut**
   inside it are separate questions, in separate modules.
